@@ -29,6 +29,7 @@ public class ChessMatch {
 		Position position = sourcePosition.toPosition();
 		validateSourcePosition(position);
 		return board.piece(position).possibleMoves();
+		
 	}
 	
 	
